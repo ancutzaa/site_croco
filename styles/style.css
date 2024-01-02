@@ -1,0 +1,97 @@
+.croco {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.chenar{
+   
+    background-color:  rgb(3, 63, 3); 
+    position: absolute;
+    bottom: -85px;
+    width: 70vw; 
+    height: 70px; 
+    padding: 50px; 
+    margin: 0px 10vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(90, 238, 110);
+   
+}
+.pag2{
+    background-color: rgb(3, 63, 3);
+    color:white;
+    width: 500px;
+}
+
+.submit{
+    background-color: rgb(70, 156, 70);
+    color:white;
+    width: 140px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+section{
+    display: flex;
+flex-direction: row;
+}
+.input_box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    margin-right: 100px;
+ 
+}
+#select_cinema{ border-radius: 40px;
+width: 280px;
+height: 25px;
+margin-top: 10px;
+
+}
+#select_data{
+border-radius: 40px;
+width:280px;
+height: 25px;
+margin-top: 10px;
+
+
+}
+label{
+    font-size: 20px;
+}
+.wrap{
+    position:fixed;
+    top: 10%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+}
+
+
+.menu{
+    width: 40px;
+    height: 7px;
+    background: white;
+    margin: 6px 0;
+    border-radius: 20px;
+    
+}
+.logo_croco{
+    position: fixed;
+    top: 5%;
+    right: 2%;
+}
+
+.make-green {
+    background: rgb(10, 156, 10);
+    opacity: 0;
+}
+#alege_cinema{
+    border-radius: 40px;
+    width: 280px;
+    height: 25px;
+    margin-top: 10px;
+}
+@media (max-width: 768px);
